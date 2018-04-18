@@ -45,7 +45,7 @@ def read_data(ps):
 
 
 
-##Queries voltage measurement from 34901A DAQ module##
+##Queries INSTR ID##
 def ID(ps):
     ps.write('*IDN?')
     instr_id = read_data(ps)
